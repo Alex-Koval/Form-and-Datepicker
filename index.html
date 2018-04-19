@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form and Datepicker</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https:/resources/demos/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+	$( function() {
+	$( "#datepicker" ).datepicker();
+	} );
+	</script>
+</head>
+<body>
+	<section>
+		<h2>Change Account informations</h2>
+			<div class="email">
+				<form action=".php" name="form-email" method="post">
+					<h3>Change Email</h3>
+					<label>Current Email<br>
+						<span1>felix@cyberelief.com</span></label>
+					<label>New Email<br>
+						<input type="text" name="New Email"></label>
+					<label>Confirm New Email<br>
+						<input type="text" name="Confirm New Email"></label>
+					<button type="submit" name="Update Email">Update Email</button>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+			<div class="password">
+				<form action=".php" name="form-password" method="post">
+					<h3>Change Password</h3>
+					<label>Old Password<br>
+						<input type="text" name="Old Password"></label>
+					<label>New Password<br>
+						<input type="text" name="New Password"></label>
+					<label>Confirm New Password<br>
+						<input type="text" name="Confirm New Password"></label>
+					<button type="submit" name="Update Password">Update Password</button>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		<h2>Billing Information / Contact Information</h2>
+			<div class="First_name">
+				<form action=".php" name="form-first-name" method="post">
+					<label>First name<br>
+						<input type="text" name="First name"></label>
+					<label>Last name<br>
+						<input type="text" name="Last name"></label>
+					<label>Street Address<br>
+						<input type="text" name="Street Address"><br>
+						<input type="text" name="Street Address"></label>
+					<label>Phone<br>
+						<input type="text" name="Phone"></label>
+				</form>
+			</div>
+			<div class="Last_name">
+				<form action=".php" name="form-last-name" method="post">
+					<label>Last Name<br>
+						<input type="text" name="Last Name"></label>
+					<label>Last name<br>
+						<input type="text" name="Last name"></label>
+					<label>City<br>
+						<input type="text" name="City"></label>
+					<label>Phone<br>
+						<input type="text" name="Phone"></label>
+					<label>State<br>
+						<select>
+							<option></option>
+							<option></option>
+							<option></option>
+						</select></label>
+					<label>Country<br>
+						<select></select></label>
+					<label>Zip code<br>
+						<input class="code" type="text" name="Zip code"></label>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		<h2>Medical Details</h2>
+			<div class="Doctors_Name">
+				<form action=".php" name="form-doctors-name" method="post">
+					<label>Doctors Name<br>
+						<input type="text" name="Doctors Name"></label>
+					<label>Doctors Clinic Name<br>
+						<input type="text" name="Doctors Clinic Name"></label>
+					<label>Street Address<br>
+						<input type="text" name="Street Address"><br>
+						<input type="text" name="Street Address"></label>
+					<label>State<br>
+						<select>
+							<option></option>
+							<option></option>
+							<option></option>
+						</select></label>
+					<label>Verification Website<br>
+						<input type="text" name="Verification Website"></label>
+					<label>Recommendation Date<br>
+						<input type="text" id="datepicker"></label>
+					<button class="Register" type="submit" name="Register">Register</button>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+	</section>
+</body>
+</html>

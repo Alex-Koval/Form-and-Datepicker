@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #e2f0ce;
+}
+section {
+	max-width: 975px;
+	margin: 170px auto 483px;
+	background-color: #ffffff;
+	padding: 107px 10px 130px 50px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #423f30;
+}
+h2 {
+	max-width: 100%;
+	background-color: black;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 27px;
+	padding-left: 8px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.email, .First_name, .Doctors_Name {
+	float: left;
+	width: 50%;
+}
+form {
+	max-width: 305px;
+}
+h3 {
+	padding-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	color: #5a5a5a;
+}
+span1 {
+	padding-top: 13px;
+	font-size: 12px;
+	font-style: Italic;
+	color: #c1c1c1;
+	display: inline-block;
+}
+label {
+	display: block;
+	padding-top: 15px;
+	font-size: 13px;
+}
+input {
+	margin-top: 6px;
+	width: 100%;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #acacac;
+}
+input.code {
+	width: 122px;
+}
+button {
+	background-color: yellow;
+	padding: 7px 16px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+	margin-top: 25px;
+	float: right;
+	border: none;
+}
+button.Register {
+	text-transform: uppercase;
+	float: none;
+	margin-top: 66px;
+	padding: 11px 17px;
+	font: bold 18px "Myriad Pro", sans-serif;
+	color: #ffffff;
+}
+.clearfix {
+	clear: both;
+}
+.password, .Last_name {
+	float: right;
+	width: 49%;
+}
+select {
+	margin-top: 6px;
+	width: 218px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #acacac;
+}
+#datepicker {
+	width: 70px;
+}
+.ui-datepicker-header {
+	color: #e5faff!important;
+	background: #a9ca44!important;
+}
+.ui-datepicker th {
+	background: #dddddd!important;
+}
+.ui-state-default {
+	border: none!important;
+	background: none!important;
+}
+.ui-state-highlight {
+	color: #ffffff!important;
+	background: #dddddd!important;
+}
+.ui-state-hover:hover{
+	background: #a9ca44 !important;
+}
